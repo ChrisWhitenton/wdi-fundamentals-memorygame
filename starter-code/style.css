@@ -1,15 +1,16 @@
 nav {
-	background-color: #808080;
+	background-color: #808080; 
 
 }
 
 a {
-	background-color: #ffbf00;
+	background-color: #002366;
 	color: white;
 	display: block;
 	text-decoration: none;
 	float: left;
 	padding: 35px;
+	font-family: "Century Gothic", sans-serif;
 }
 
 .clearfix:after {
@@ -22,15 +23,26 @@ a {
       }
 
 a:hover {
-	background-color: #ee5f3c;
+	background-color: #808080;
+
 }
 
 h1 {
-	color: rgb(2,132,130);
+	color: rgb(0,0,0,0);
+	font-family: "Century Gothic", sans-serif;
+	font-size: 75px;
 }
 
 h2 {
-	color: #ffd700;
+	color: #000000;
+	font-family: "Century Gothic", sans-serif;
+	
+}
+
+h4 {
+	font-family: "Century Gothic", sans-serif;
+	font-size: 50px;
+	color: #808080;
 }
 
 .board {
@@ -45,17 +57,12 @@ h2 {
 	width: 150px;
 	border: 1px solid black;
 	border-radius: 10px;
-	background-color: yellow;
+	background-color: #002366;
 	float: left;
 	margin: 8%;
 }
-span {
-	color: #ff0000;
-}
+
 body{
 	text-align: center;
-}
-
-footer {
-	background-color: #808080;
+	background-color: #e6e6e6;
 }
